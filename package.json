@@ -1,6 +1,6 @@
 {
-  "name": "rawg-api-v2",
-  "version": "1.0.0",
+  "name": "rawg-api",
+  "version": "0.0.1",
   "private": "true",
   "license": "MIT",
   "scripts": {
@@ -12,14 +12,12 @@
     "autoprefixer": "^10.2.1",
     "axios": "^0.21.1",
     "dayjs": "^1.10.3",
-    "lodash": "^4.17.20",
     "next": "^10.0.5",
     "nprogress": "^0.2.0",
     "postcss": "^8.2.4",
     "react": "^17.0.1",
     "react-debounce-input": "^3.2.3",
     "react-dom": "^17.0.1",
-    "react-error-boundary": "^3.1.0",
     "react-query": "^3.5.12",
     "resolve-from": "^5.0.0",
     "tailwindcss": "^2.0.2"
