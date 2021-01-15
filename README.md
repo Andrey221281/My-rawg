@@ -1,4 +1,4 @@
-Example nextjs app with SSG and SSR
+Example RAWG Video Games Database API nextjs app with SSG and SSR
 
 ## Getting Started
 
