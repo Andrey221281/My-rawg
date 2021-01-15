@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 antialiased h-full text-gray-100;
+  }
+
+  a {
+    @apply text-gray-200 transition hover:text-gray-400 hover:underline;
+  }
+
+  h1 {
+    @apply text-xl;
+  }
+
+  input,
+  select {
+    @apply rounded-xl text-gray-400 border transition hover:bg-gray-400 hover:text-gray-800 border-gray-400 px-3 py-2 bg-gray-900 focus:outline-none;
+  }
+
+  select {
+    @apply appearance-none;
+  }
+
+  input::placeholder {
+    @apply text-gray-400;
+  }
+
+  button,
+  .btn {
+    @apply block mx-auto border border-gray-400 px-5 py-3 transition hover:bg-gray-400 hover:text-gray-800 rounded-lg outline-none;
+  }
+
+  button:active,
+  .btn:active {
+    @apply outline-none;
+  }
+
+  button[disabled],
+  .btn[disabled] {
+    @apply border border-gray-700 text-gray-700 cursor-not-allowed hover:bg-gray-900 hover:text-gray-700;
+  }
+}
