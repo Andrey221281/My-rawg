@@ -2,9 +2,7 @@ Example nextjs app with SSG and SSR
 
 ## Getting Started
 
-1. Rename .env.example to .env
-
-2. Creating an optimized production build
+1. Creating an optimized production build
 
 ```bash
 npm run build
@@ -12,7 +10,7 @@ npm run build
 yarn build
 ```
 
-3. Run the production server:
+2. Run the production server:
 
 ```bash
 npm run start
